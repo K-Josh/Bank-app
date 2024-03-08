@@ -1,0 +1,31 @@
+.about {
+    height: 70vh;
+    width: 73vw;
+    margin-top: 2rem;
+    padding: 6rem;
+}
+.about_heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about_heading h1 {
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+.about_heading_icons{
+    gap: 2rem;
+    display: flex;
+    margin-right: 5rem;
+}
+.about_heading_icons1 {
+    color: darkgrey;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.about_heading_icons2 {
+    font-size: 2rem;
+    color: #5D55FF;
+    opacity: 0.6;
+    cursor: pointer;
+}

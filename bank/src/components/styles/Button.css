@@ -1,0 +1,69 @@
+.download_card_inner_bottom_buttons {
+    display: flex;
+    gap: 3rem;
+    margin-top: 1rem;
+  }
+  .download_card_inner_bottom_buttons1 {
+    width: 12rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: #000;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .download_card_inner_bottom_buttons1:hover {
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1), -6px -6px 10px rgba(255, 255, 255, 0.1);
+    scale: 1.1;
+    transition: all 400ms ease-in-out;
+  }
+  .download_card_inner_bottom_button1_content {
+    display: flex;
+    align-items: center;
+  }
+  .download_card_button_text {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    color: var(--landing-color);
+  }
+  .first_text {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+  .first_text_button2 {
+    font-size: 8px;
+    white-space: nowrap;
+  }
+  .second_text {
+    white-space: nowrap;
+    font-weight: bold;
+  }
+  .download_card_inner_bottom_buttons2 {
+    width: 10vw;
+    height: 5rem;
+    background: #000;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .download_card_icon {
+    color: #FFF;
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  
+  .download_card_inner_bottom_buttons2 {
+    width: 10rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: #000;
+    border-radius: 5px;
+    cursor: pointer;
+  }

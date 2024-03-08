@@ -1,0 +1,73 @@
+
+
+/* Download section */
+.download {
+    margin-top: 2rem;
+    padding: 4rem;
+    width: 67vw;
+    height: 50vh;
+    display: flex;
+    position: relative;
+  }
+  .download_image {
+    margin-top: 4rem;
+    margin-left: 4rem;
+  }
+  .download_image_img {
+    height: 50vh;
+    width: 53vw;
+  }
+  .download_card {
+    background-color: #FFF;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1), -6px -6px 10px rgba(255, 255, 255, 0.1);
+    position: relative;
+    z-index: 40;
+    right: 26rem;
+    top: 8rem;
+    height: 26vh;
+    border-radius: 5px;
+    padding: 3rem;
+    cursor: pointer;
+  }
+  .download_card_inner p {
+    width: 29vw;
+    color: var(--landing-text);
+  }
+  .download_card_inner_h1 {
+    font-size: 2.6rem;
+  }
+  .download_card_inner_bottom {
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 475px) {
+    .download {
+        width: 430px;
+        margin: 78vh auto;
+        height: 56vh;
+        display: flex;
+        flex-direction: column;
+        background-color: aqua;
+        
+      }
+      .download_image {
+        margin-top: 4rem;
+        margin-left: 4rem;
+      }
+      .download_image_img {
+        width: 50vh;
+        height: 50vh;
+      }
+      .download_card {
+        background-color: #5a0303;
+        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1), -6px -6px 10px rgba(255, 255, 255, 0.1);
+        position: relative;
+        z-index: 40;
+        right: 0;
+        top: 0;
+        height: 26vh;
+        width: 34rem;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+  }

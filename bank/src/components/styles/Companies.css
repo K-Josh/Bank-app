@@ -1,0 +1,37 @@
+/* company banner styling */
+.company {
+    width: 100%;
+    height: 10vh;
+    background-color: #443CDF;
+    opacity: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .company__images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12rem;
+  }
+  .company__images__one {
+    width: 12rem;
+  }
+  .company__images__two {
+    width: 5rem;
+    height: 2rem;
+  }
+  .company__images__three {
+    width: 5rem;
+    height: 2rem;
+  }
+  .company__images__four {
+    width: 5rem;
+    height: 2rem;
+  }
+
+  @media (max-width: 475px) {
+    .company {
+        visibility: hidden;
+    }
+  }
